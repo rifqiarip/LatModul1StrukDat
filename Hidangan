@@ -1,0 +1,15 @@
+import com.sun.source.tree.BreakTree;
+
+public class Hidangan {
+    protected String namaHidangan;
+    public String getNamaHidangan(){
+        return namaHidangan;
+    }
+
+    public void setNamaHidangan(String namahidangan){
+        this.namaHidangan = namahidangan;
+    }
+    public String disantap(){
+        return "Makanan diHidangkan";
+    }
+}
